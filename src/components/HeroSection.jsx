@@ -14,12 +14,12 @@ export default function HeroSection() {
                     <span className="ml-2"> Le</span>
                 </h1>
 
-                <p className="text-[min(5vw,30px)] mx-auto">
+                <p className="text-[min(5vw,30px)] mx-auto mb-8">
                     I make stuff.
                 </p>
 
                 <div className="pt-4">
-                    <a href="#projects" className="cosmic-button">
+                    <a href="#projects" className="special-button">
                         View My Work
                     </a>
                 </div>

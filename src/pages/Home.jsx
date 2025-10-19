@@ -9,7 +9,7 @@ import Footer from "../components/Footer";
 
 export default function Home() {
     return (
-        <div className="min-h-screen bg-background text-foreground overflow-x-hidden">
+        <div className="min-h-screen bg-background-dark text-foreground overflow-x-hidden">
             {/* Theme Toggle */}
             <ToggleTheme />
 

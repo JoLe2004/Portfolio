@@ -3,7 +3,7 @@ import { cn } from "../lib/utils"
 
 const skills = [
     {name: "HTML/CSS", category: "frontend"},
-    {name: "Javascript", category: "frontend"},
+    {name: "JavaScript", category: "frontend"},
     {name: "React", category: "frontend"},
     {name: "Tailwind CSS", category: "frontend"},
 
@@ -25,7 +25,7 @@ export default function SkillsSection(){
     const filteredSkills = skills.filter((skill) => activeCategory === "all" || skill.category === activeCategory)
     return (
         <section id="skills" className="py-24 px-4 relative">
-            <div className="container mx-auto max-w-5xl">
+            <div className="container mx-auto py-8 max-w-5xl border-4 rounded-2xl bg-container-bg">
                 <h2 className="text-[min(10vw,70px)] font-bold mb-12 text-center">
                     My <span className="text-primary">Skills</span>
                 </h2>
