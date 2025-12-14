@@ -23,7 +23,7 @@ const projects = [
         description: "A website for my game, Wayfarers. Currently in development.",
         image: "/projects/wayfarers-website.png",
         tags: ["JavaScript", "HTML/CSS"],
-        link: "",
+        link: "https://wayfarers-game.netlify.app/",
         githubUrl: "https://github.com/JoLe2004/Wayfarers-Website"
     },
     {
