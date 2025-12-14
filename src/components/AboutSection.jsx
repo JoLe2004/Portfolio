@@ -2,30 +2,35 @@ import ResumeViewer from "./ResumeViewer"
 
 export default function AboutSection() {
     return (
-        <section id="about" className="relative py-24 px-4">
-            <div className="container mx-auto py-8 max-w-5xl border-4 rounded-2xl bg-container-bg">
-                <h2 className="text-[min(10vw,70px)] font-bold mb-12 text-center">
-                    About <span className="text-primary"> Me</span>
-                </h2>
-
-                <div className="grid grid-cols-1 gap-12 items-center">
-                    <div className="space-y-6">
-                        <h3 className="text-2xl font-semibold">Software/Web Developer</h3>
-                        <p>
-                            I am currently a student at Grand Valley State University majoring in Computer Science with a minor in Math, and I'm expected to graduate in Fall of 2026.
-                            Some of the classes I have taken include Web Application Programming, Mobile Application Development, and Secure Software Engineering, giving me the tools
-                            and skills I need to succeed as software developer. My hobbies include cooking, playing videogames, and traveling. 
-                        </p>
-                        <p>
-                            My short-term goals include graduating and getting an internship/job in the software or web development field. In the long-term, however, I hope to continue learning
-                            new skills that will help me in my career. I also hope to dabble in videogame development and maybe make my own game one day.
-                        </p>
-
-                        <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center items-center">
-                            <a href="#contact" className="special-button w-36">Get In Touch</a>
-                            <ResumeViewer />
-                        </div>
+        <section id="about" className="relative my-24 mx-4">
+            <div className="relative mx-auto max-w-5xl border-4 rounded-2xl bg-container-bg overflow-hidden">
+                <div className="h-32">
+                    <img src="/pictures/banner.png" alt="Banner" className="w-full h-full bg-cover" />
+                </div>
+                <div className="flex items-center px-6 py-4">
+                    <div className="mr-4 w-20 shrink-0 rounded-[50%] border-2 overflow-hidden">
+                        <img src="/pictures/profile.jpg" alt="Profile Picture" className="w-full h-full object-cover" />
                     </div>
+                    <h2 className="text-[24px] px-4">
+                        <span>Hey, I'm John.👋</span>
+                        <p className="text-[16px]">Software and Game Developer</p>
+                    </h2>
+                </div>
+                <div className="flex flex-col gap-4 p-6">
+                    <p>
+                        I am currently a student at Grand Valley State University majoring in Computer Science with a minor in Math.
+                        I am most familiar with frontend development with some experience in backend development.
+
+                    </p>
+                    <p>
+                        My short-term goals include graduating and getting an internship/job in the software or web development field.
+                        In the long-term, I hope to continue learning new skills that will help me in my career. I also hope
+                        to make release my own videogame one day. My hobbies include cooking, playing videogames, and developing!
+                    </p>
+                    <p>
+                        Currently working on this portfolio and making it more interactive, the website for Wayfarers, and the Wayfarers game itself!
+                    </p>
+                    <div className="m-auto"><ResumeViewer /></div>
                 </div>
             </div>
         </section>

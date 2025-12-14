@@ -7,7 +7,7 @@ export default function ResumeViewer() {
         <div>
             <button
                 onClick={() => setShowResume((prev) => !prev)}
-                className="px-6 py-2 rounded-full border border-primary text-primary hover:bg:primary/10 transition-all duration-300 w-36"
+                className="w-36 px-6 py-2 rounded-full border border-primary text-primary cursor-pointer"
                 aria-label="Show Resume"
             >
                 View CV
@@ -24,7 +24,7 @@ export default function ResumeViewer() {
                 </div>
                 <button
                     onClick={() => setShowResume((prev) => !prev)}
-                    className="px-6 py-2 rounded-full border border-primary text-primary hover:bg:primary/10 transition-all duration-300 w-36"
+                    className="w-36 px-6 py-2 rounded-full border border-primary text-primary cursor-pointer"
                     aria-label="Close Resume">Close CV</button>
             </div>
         </div>

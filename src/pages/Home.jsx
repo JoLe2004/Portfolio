@@ -1,6 +1,5 @@
 import ToggleTheme from "../components/ToggleTheme";
 import Navbar from "../components/Navbar";
-import HeroSection from "../components/HeroSection";
 import AboutSection from "../components/AboutSection";
 import SkillsSection from "../components/SkillsSection";
 import ProjectsSection from "../components/ProjectsSection";
@@ -17,7 +16,6 @@ export default function Home() {
             <Navbar />
 
             {/* Main Content */}
-            <HeroSection />
             <AboutSection />
             <SkillsSection />
             <ProjectsSection />
