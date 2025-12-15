@@ -3,7 +3,7 @@ import { FaLinkedin, FaInstagram } from "react-icons/fa"
 
 export default function ContactSection() {
     return (
-        <section id="contact" className="relative my-24 mx-4">
+        <section id="contact" className="relative my-24 mx-4 fadeInUp">
             <div className="mx-auto max-w-5xl border-4 rounded-2xl bg-container-bg">
                 <h2 className="text-[50px] lg:text-[70px] font-bold mb-4 text-center">
                     Get In <span className="text-primary">Touch</span>

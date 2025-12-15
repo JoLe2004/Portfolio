@@ -76,7 +76,7 @@ export default function ProjectsSection() {
         </div>
     ))
 
-    return <section id="projects" className="relative my-24 mx-4">
+    return <section id="projects" className="relative my-24 mx-4 fadeInUp">
         <div className="relative mx-auto max-w-5xl border-4 rounded-2xl bg-container-bg overflow-hidden">
             <h2 className="text-[50px] lg:text-[70px] font-bold mb-4 text-center">
                 Featured <span className="text-primary">Projects</span>

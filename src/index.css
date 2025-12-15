@@ -99,3 +99,18 @@
   margin: 0 auto;
   padding: 0;
 }
+
+@keyframes fadeInUp {
+  from {
+    transform: translateY(50%);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0%);
+    opacity: 1;
+  }
+}
+
+.fadeInUp {
+  animation: 0.75s fadeInUp;
+}

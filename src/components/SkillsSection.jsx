@@ -44,7 +44,7 @@ export default function SkillsSection() {
     ))
 
     return (
-        <section id="skills" className="relative my-24 mx-4">
+        <section id="skills" className="relative my-24 mx-4 fadeInUp">
             <div className="relative mx-auto max-w-5xl border-4 rounded-2xl bg-container-bg overflow-hidden">
                 <h2 className="text-[50px] lg:text-[70px] text-center">
                     Skills

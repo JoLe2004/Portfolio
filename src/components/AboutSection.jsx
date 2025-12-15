@@ -2,10 +2,11 @@ import ResumeViewer from "./ResumeViewer"
 
 export default function AboutSection() {
     return (
-        <section id="about" className="relative my-24 mx-4">
+        <section id="about" className="relative my-24 mx-4 fadeInUp">
             <div className="relative mx-auto max-w-5xl border-4 rounded-2xl bg-container-bg overflow-hidden">
-                <div className="h-32">
+                <div className="relative h-64">
                     <img src="/pictures/banner.png" alt="Banner" className="w-full h-full bg-cover" />
+                    <div className="absolute bottom-0 left-0 w-full h-12 bg-gradient-to-t from-container-bg to-transparent"></div>
                 </div>
                 <div className="flex items-center px-6 py-4">
                     <div className="mr-4 w-20 shrink-0 rounded-[50%] border-2 overflow-hidden">
