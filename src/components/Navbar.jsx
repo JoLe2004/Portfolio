@@ -11,11 +11,11 @@ const navItems = [
 export default function Navbar() {
 
   const navElements = navItems.map((item, i) => 
-    <li key={i} className="cursor-pointer lg:text-[24px] md:text-[20px]"><a href={item.href}> {item.name} </a></li>
+    <li key={i} className="cursor-pointer lg:text-[24px] md:text-[20px]"><a href={item.href} className="relative"> {item.name} </a></li>
   )
   return (
     <nav id="navbar">
-      <div className="w-[100%] bg-background p-6 border-b-4">
+      <div className="w-[100%] bg-background p-6 border-b-4 z-1">
         <ul className="flex justify-between max-w-150 mx-auto font-medium">
           {navElements}
         </ul>

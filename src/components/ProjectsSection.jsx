@@ -34,6 +34,15 @@ const projects = [
         tags: ["Godot", "GDScript", "Aseprite", "Blender"],
         link: "",
         githubUrl: "https://github.com/JoLe2004/Wayfarers"
+    },
+    {
+        id: 5,
+        title: "Showdown Statistics",
+        description: "Usage statistics from popular Pokémon battle simulator Showdown, cleanly formatted!",
+        image: "/projects/showdown-stats.png",
+        tags: ["React", "Tailwind", "Vite", "Python"],
+        link: "https://showdownstats.netlify.app/",
+        githubUrl: "https://github.com/JoLe2004/ShowdownStats"
     }
 ]
 

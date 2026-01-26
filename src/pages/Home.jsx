@@ -5,6 +5,7 @@ import SkillsSection from "../components/SkillsSection";
 import ProjectsSection from "../components/ProjectsSection";
 import ContactSection from "../components/ContactSection";
 import Footer from "../components/Footer";
+import CustomCursor from "../components/CustomCursor";
 
 export default function Home() {
     return (
